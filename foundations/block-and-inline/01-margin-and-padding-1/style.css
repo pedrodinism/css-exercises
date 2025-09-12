@@ -7,15 +7,15 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 20px;
+  margin: 10px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 30px; /* removes 6px from the width and ends up with 594px + 3px * 2 border */
 }
 
 .three {
@@ -23,6 +23,6 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 20px;
+  margin-left: 354px; /* 2 has a width of 600px (2 * 3px + 594 px) -> 1 has a width of 200 px + 20px * 2 + 3px * 2 ->  margin needs to be 600 - 246 = 354px */ 
 }
